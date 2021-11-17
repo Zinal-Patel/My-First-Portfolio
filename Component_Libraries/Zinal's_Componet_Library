@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Component Library </title>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+    </head>
+    <body>
+        <h1>Zinal's Component Library</h1>
+        <p>I am attending Neog camp</p>
+
+        <hr>
+        
+        <h2>@typography</h2>
+
+        <h1>This is the biggest heading</h1>
+        <h2>This is the second biggest</h2>
+        <p>This is the normal text. This is free flowing and will wrap at the end like a paragraph</p>
+        <small>this is relatively smaller text</small>
+
+        <hr> 
+
+        <h2>@Container</h2>
+
+        <h3>fluid container</h3>
+        <div class="container fluid-container container">This is a fluid container and it will go till the end of the page</div>
+
+        <h3>Centered container</h3>
+        <div class="container center-container container">This is a centered container and it will go till the specified width</div>
+
+        <hr> 
+
+        <h2>@Links</h2>
+        <a class="primary-link link" href="/">Primary link</a>
+        <a class="secondary-link link" href="/">Secondary link</a>
+
+        <hr> 
+
+        <h2>@Lists</h2>
+
+        <h3>Unordered Lists</h3>
+
+        <ul class= "non-bullets">
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item three</li>
+        </ul>
+
+        <h3>Ordered Lists</h3>
+
+        <ul class= "non-bullets">
+            <li class="inline-style">Inline Item one</li>
+            <li class="inline-style">Inline Item two</li>
+            <li class="inline-style">Inline Item three</li>
+        </ul>
+
+        <h3>Reverse Ordered Lists</h3>
+
+        <ol reversed>
+            <li>  one</li>
+            <li>  two</li>
+            <li>  three</li>
+        </ol>
+
+        <hr> 
+
+        <h2>@nav</h2>
+
+        <nav class="navigation-container">
+            <div class="brand-div">IAmBrand</div>
+            <ul class="non-bullets nav-pills">
+                <li class="inline-style"><a class="link link-active" href="/">Home</a></li>
+                <li class="inline-style"><a class="link" href="/">Projects</a></li>
+                <li class="inline-style"><a class="link" href="/">About</a></li>
+            </ul>
+        </nav>
+
+        <hr> 
+
+        <h2>@header</h2>
+
+        <header class="header-container">
+            <img class="header-image" src="images/ProfileImage.svg"/>
+            <h1 class="header-heading">Ziveloveper -<span class= "header-heading-span"> Web Developer </span></h1>
+        </header>
+
+        
+        <hr> 
+
+        <h2>@Section</h2>
+
+        <section class="section-container center-container">
+            <h3>White Section</h3>
+            <p>This will have white background</p>
+        </section>
+        
+        <section class="section-container off-white-background center-container">
+            <h3>Off-White Section</h3>
+            <p>This will have off-white background</p>
+        </section>
+        
+
+        <hr> 
+
+
+        <h2>@Footer</h2>
+        <footer class="footer-container">
+               <div class="footer-div-container">Some small heading inside footer.</div> 
+               <ul class="footer-links non-bullets">
+                <li class="inline-style"><a class="link" href="/">Social One</a></li>
+                <li class="inline-style"><a class="link" href="/">Social Two</a></li>
+                <li class="inline-style"><a class="link" href="/">Social Three</a</li>
+            </ul>
+        </footer>
+
+        <ul>
+            <li>
+                <h2>Project One</h2>
+                
+            </li>
+            
+            
+        </ul>
+
+
+    </body>
+</html>
