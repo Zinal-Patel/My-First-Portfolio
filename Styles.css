@@ -3,7 +3,7 @@
 :root{
     --primary-color:   #8B5CF6;
     --secondary-color: #FEF2F2;
-    --secondary-link: #A7F3D0;
+    --secondary-link: #F87171;
     --dark-gray: #6B7280; 
     --section-background-gray: #F3F4F6;
     ;
@@ -27,9 +27,7 @@ body{
 
 /*links*/
 .primary-link{
-   /* background-color : var(--primary-color);
-    border-radius: 0.8rem;
-    color: white;*/
+  
 
     color : var(--primary-color);
     font-weight: bold;
@@ -38,7 +36,7 @@ body{
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 2rem 1rem;
     /* padding is kind of increasing space around the element*/
 
 }
@@ -47,8 +45,9 @@ body{
     color : var(--secondary-link);
     font-weight: bold;
     font-size: 1.3rem;
-    padding-top: 5rem;
+    line-height: 2rem;
 }
+
 
 
 
@@ -178,9 +177,14 @@ text-align: center;
 .center-container .heading-bold{
 
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .center-container .project-description{
 font-weight: bold;
+}
+
+small{
+
+font-style: italic;
 }
